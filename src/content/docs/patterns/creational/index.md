@@ -44,6 +44,19 @@ InShort: `provides an interface for creating objects`
 
 <!-- Code: [factory.js](factory/factory.js), [factory.swift](factory/factory.swift) -->
 
+### Prototype
+
+The Prototype pattern involves creating objects by cloning existing objects, providing a mechanism for creating new objects based on existing ones.
+
+- Use case: Creating multiple instances of a complex object with predefined properties
+- Use case: Implementing a copy functionality for objects
+
+InShort: `creates objects by cloning existing objects`
+
+<!-- Details: [Purpose, Context and Participants](prototype) -->
+
+<!-- Code: [Prototype](prototype/prototype.js), [prototype.swift](prototype/prototype.swift) -->
+
 ### Singleton
 
 The Singleton pattern ensures that only a single instance of a class is created and provides a global point of access to that instance.
@@ -57,18 +70,7 @@ InShort: `ensures a single instance of a class`
 
 <!-- Code: [singleton.js](singleton/singleton.js), [singleton.swift](singleton/singleton.swift) -->
 
-### Prototype
 
-The Prototype pattern involves creating objects by cloning existing objects, providing a mechanism for creating new objects based on existing ones.
-
-- Use case: Creating multiple instances of a complex object with predefined properties
-- Use case: Implementing a copy functionality for objects
-
-InShort: `creates objects by cloning existing objects`
-
-<!-- Details: [Purpose, Context and Participants](prototype) -->
-
-<!-- Code: [Prototype](prototype/prototype.js), [prototype.swift](prototype/prototype.swift) -->
 
 ___
 

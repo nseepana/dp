@@ -35,7 +35,7 @@ export default defineConfig({
               "link": "patterns/creational/singleton/context/"
             },
             {
-              "label": "-Summary-",
+              "label": "Summary",
               "link": "patterns/creational/"
             }
           ]
@@ -76,7 +76,7 @@ export default defineConfig({
               "link": "patterns/structural/proxy/context/"
             },
             {
-              "label": "-Summary-",
+              "label": "Summary",
               "link": "patterns/structural/"
             }
           ]
@@ -85,8 +85,8 @@ export default defineConfig({
           "label": "Behavioral",
           "items": [
             {
-              "label": "Chain Of Responsibility",
-              "link": "patterns/behavioral/chain_of_responsibility/context/"
+              "label": "Chain of Responsibility",
+              "link": "patterns/behavioral/chain_of_responsibility/context2/"
             },
             {
               "label": "Command",
@@ -130,7 +130,7 @@ export default defineConfig({
               "link": "patterns/behavioral/visitor/context/"
             },
             {
-              "label": "-Summary-",
+              "label": "Summary",
               "link": "patterns/behavioral/"
             }
           ]

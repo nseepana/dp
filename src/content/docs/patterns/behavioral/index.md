@@ -3,13 +3,10 @@ title: Behavioral Patterns
 description: focus on the interaction and communication between objects
 ---
 
-Behavioral patterns `focus on the interaction and communication between objects`
-
-These patterns deal with the assignment of responsibilities and behaviors among objects, enabling them to work together effectively.
+Behavioral patterns `focus on the objects interaction, communication and encapsulation`
 
 Behavioral patterns help in achieving loose coupling and flexibility in the design, allowing for easier maintenance and extensibility of the software.
 
-Here are some commonly used behavioral patterns:
 
 ### Chain of Responsibility
 
