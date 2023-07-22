@@ -1,5 +1,5 @@
-import { defineConfig } from 'astro/config';
-import starlight from '@astrojs/starlight';
+import { defineConfig } from 'astro/config'
+import starlight from '@astrojs/starlight'
 
 // https://astro.build/config
 export default defineConfig({
@@ -7,38 +7,138 @@ export default defineConfig({
     starlight({
       title: 'Design Patterns',
       social: {
-        github: 'https://github.com/withastro/starlight',
+        github: 'https://github.com/withastro/starlight'
       },
       sidebar: [
+      
         {
-          label: 'Design Patterns',
-          // link: '/designpatterns/',
-          // items: [
-          //   // Each item here is one entry in the navigation menu.
-          //   { label: 'Creational', link: '/designpatterns/creational/' },
-          //   { label: 'Structural', link: '/designpatterns/structural/' },
-          //   { label: 'Behavioral', link: '/designpatterns/behavioral/' },
-          // ],
-
-          // The sidebar can be configured to automatically generate a list of
-          // links to files in a directory.
-
-          autogenerate: {
-            directory: 'Designpatterns',
-            // The sidebar will only include files that match this glob.
-            // You can use any minimatch pattern here.
-            pattern: '**/*.md|mdx',
-          },
+          "label": "Creational",
+          "items": [
+            {
+              "label": "Abstract Factory",
+              "link": "patterns/creational/abstract_factory/context/"
+            },
+            {
+              "label": "Builder",
+              "link": "patterns/creational/builder/context/"
+            },
+            {
+              "label": "Factory",
+              "link": "patterns/creational/factory/context/"
+            },
+            {
+              "label": "Prototype",
+              "link": "patterns/creational/prototype/context/"
+            },
+            {
+              "label": "Singleton",
+              "link": "patterns/creational/singleton/context/"
+            },
+            {
+              "label": "-Summary-",
+              "link": "patterns/creational/"
+            }
+          ]
         },
-
         {
-          label: 'Reference',
-          autogenerate: { directory: 'reference' },
+          "label": "Structural",
+          "items": [
+            {
+              "label": "Adapter",
+              "link": "patterns/structural/adapter/context/"
+            },
+            {
+              "label": "Bridge",
+              "link": "patterns/structural/bridge/context/"
+            },
+            {
+              "label": "Composite",
+              "link": "patterns/structural/composite/context/"
+            },
+            {
+              "label": "Decorator",
+              "link": "patterns/structural/decorator/context/"
+            },
+            {
+              "label": "Facade",
+              "link": "patterns/structural/facade/context/"
+            },
+            {
+              "label": "Flyweight",
+              "link": "patterns/structural/flyweight/context/"
+            },
+            {
+              "label": "Mixin",
+              "link": "patterns/structural/mixin/context/"
+            },
+            {
+              "label": "Proxy",
+              "link": "patterns/structural/proxy/context/"
+            },
+            {
+              "label": "-Summary-",
+              "link": "patterns/structural/"
+            }
+          ]
         },
-      ],
-    }),
+        {
+          "label": "Behavioral",
+          "items": [
+            {
+              "label": "Chain Of Responsibility",
+              "link": "patterns/behavioral/chain_of_responsibility/context/"
+            },
+            {
+              "label": "Command",
+              "link": "patterns/behavioral/command/context/"
+            },
+            {
+              "label": "Interpreter",
+              "link": "patterns/behavioral/interpreter/context/"
+            },
+            {
+              "label": "Iterator",
+              "link": "patterns/behavioral/iterator/context/"
+            },
+            {
+              "label": "Mediator",
+              "link": "patterns/behavioral/mediator/context/"
+            },
+            {
+              "label": "Memento",
+              "link": "patterns/behavioral/memento/context/"
+            },
+
+            {
+              "label": "Observer",
+              "link": "patterns/behavioral/observer/context/"
+            },
+            {
+              "label": "State",
+              "link": "patterns/behavioral/state/context/"
+            },
+            {
+              "label": "Strategy",
+              "link": "patterns/behavioral/strategy/context/"
+            },
+            {
+              "label": "Template Method",
+              "link": "patterns/behavioral/template_method/context/"
+            },
+            {
+              "label": "Visitor",
+              "link": "patterns/behavioral/visitor/context/"
+            },
+            {
+              "label": "-Summary-",
+              "link": "patterns/behavioral/"
+            }
+          ]
+        },
+      ],      
+    })
   ],
 
   // Process images with sharp: https://docs.astro.build/en/guides/assets/#using-sharp
-  image: { service: { entrypoint: 'astro/assets/services/sharp' } },
-});
+  image: { service: { entrypoint: 'astro/assets/services/sharp' } }
+})
