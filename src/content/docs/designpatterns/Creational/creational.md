@@ -1,4 +1,4 @@
 ---
-title: Creational
+title: Summary
 description: A guide in my new Starlight docs site.
 ---

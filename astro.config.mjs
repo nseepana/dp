@@ -12,12 +12,23 @@ export default defineConfig({
       sidebar: [
         {
           label: 'Design Patterns',
-          items: [
-            // Each item here is one entry in the navigation menu.
-            { label: 'Creational', link: '/designpatterns/creational/' },
-            { label: 'Structural', link: '/designpatterns/structural/' },
-            { label: 'Behavioral', link: '/designpatterns/behavioral/' },
-          ],
+          // link: '/designpatterns/',
+          // items: [
+          //   // Each item here is one entry in the navigation menu.
+          //   { label: 'Creational', link: '/designpatterns/creational/' },
+          //   { label: 'Structural', link: '/designpatterns/structural/' },
+          //   { label: 'Behavioral', link: '/designpatterns/behavioral/' },
+          // ],
+
+          // The sidebar can be configured to automatically generate a list of
+          // links to files in a directory.
+
+          autogenerate: {
+            directory: 'Designpatterns',
+            // The sidebar will only include files that match this glob.
+            // You can use any minimatch pattern here.
+            pattern: '**/*.md|mdx',
+          },
         },
 
         {

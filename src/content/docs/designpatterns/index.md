@@ -7,32 +7,41 @@ Design Patterns are reusable solutions to common programming problems. They were
 
 Design Patterns are divided into three categories:
 
-- **Creational patterns** provide object creation mechanisms that increase flexibility and reuse of existing code.
-    - Abstract Factory
-    - Builder
-    - Factory Method
-    - Prototype
-    - Singleton
+### **Creational patterns**
+
+provide object creation mechanisms that increase flexibility and reuse of existing code.
+
+- Abstract Factory
+- Builder
+- Factory Method
+- Prototype
+- Singleton
 
 
-- **Structural patterns** explain how to assemble objects and classes into larger structures, while keeping the structures flexible and efficient.
-    - Adapter
-    - Bridge
-    - Composite
-    - Decorator
-    - Facade
-    - Flyweight
-    - Proxy
+### **Structural patterns** 
 
-- **Behavioral patterns** take care of effective communication and the assignment of responsibilities between objects.
-    - Chain of Responsibility
-    - Command
-    - Iterator
-    - Mediator
-    - Memento
-    - Observer
-    - State 
-    - Strategy
-    - Template Method
-    - Visitor
-    - Interpreter
+explain how to assemble objects and classes into larger structures, while keeping the structures flexible and efficient.
+
+- Adapter
+- Bridge
+- Composite
+- Decorator
+- Facade
+- Flyweight
+- Proxy
+
+
+### **Behavioral patterns** 
+take care of effective communication and the assignment of responsibilities between objects.
+
+- Chain of Responsibility
+- Command
+- Iterator
+- Mediator
+- Memeno
+- Observer
+- State 
+- Strategy
+- Template Method
+- Visitor
+- Interpreter
