@@ -5,18 +5,21 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
   integrations: [
     starlight({
-      title: 'My Docs',
+      title: 'Design Patterns',
       social: {
         github: 'https://github.com/withastro/starlight',
       },
       sidebar: [
         {
-          label: 'Guides',
+          label: 'Design Patterns',
           items: [
             // Each item here is one entry in the navigation menu.
-            { label: 'Example Guide', link: '/guides/example/' },
+            { label: 'Creational', link: '/designpatterns/creational/' },
+            { label: 'Structural', link: '/designpatterns/structural/' },
+            { label: 'Behavioral', link: '/designpatterns/behavioral/' },
           ],
         },
+
         {
           label: 'Reference',
           autogenerate: { directory: 'reference' },
