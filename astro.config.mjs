@@ -7,7 +7,7 @@ export default defineConfig({
     starlight({
       title: 'Design Patterns',
       social: {
-        github: 'https://github.com/withastro/starlight'
+        github: 'https://github.com/nseepana/dp'
       },
       sidebar: [
       
