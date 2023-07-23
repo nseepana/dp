@@ -86,7 +86,7 @@ export default defineConfig({
           "items": [
             {
               "label": "Chain of Responsibility",
-              "link": "patterns/behavioral/chain_of_responsibility/context2/"
+              "link": "patterns/behavioral/chain_of_responsibility/context/"
             },
             {
               "label": "Command",
