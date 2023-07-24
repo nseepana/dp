@@ -12,11 +12,7 @@ export default defineConfig({
   site: 'https://dp.tamphus.com/',
   integrations: [
     // ref: https://docs.astro.build/en/guides/integrations-guide/sitemap/
-    sitemap({
-      changefreq: 'weekly',
-      priority: 0.7,
-      lastmod: new Date()
-    }),
+    sitemap(),
     starlight({
       title: 'Design Patterns',
       social: {
@@ -52,7 +48,6 @@ export default defineConfig({
           attrs: {
             rel: 'shortcut icon',
             href: '/assets/favicon.ico',
-            type: 'image/svg+xml'
           }
         },
 
