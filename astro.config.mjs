@@ -1,16 +1,31 @@
 import { defineConfig } from 'astro/config'
 import starlight from '@astrojs/starlight'
+import vercel from '@astrojs/vercel/serverless';
+
 
 // https://astro.build/config
 export default defineConfig({
+  // output: 'server',
+  // adapter: vercel({
+  //   analytics: true,
+  // }),
   integrations: [
     starlight({
       title: 'Design Patterns',
       social: {
         github: 'https://github.com/nseepana/dp'
       },
+      head:[
+        {
+          tag: 'script',
+          attrs: {
+            'src': '/_vercel/insights/script.js',
+            'data-feature': 'web-analytics',
+            'defer': true,
+          },
+        },
+      ],
       sidebar: [
-      
         {
           "label": "Creational",
           "items": [
