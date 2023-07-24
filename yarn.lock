@@ -97,6 +97,14 @@
     sitemap "^7.1.1"
     zod "^3.17.3"
 
+"@astrojs/sitemap@^2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@astrojs/sitemap/-/sitemap-2.0.1.tgz#c0754fa374d406592e38a92695e2a077aa5d28ae"
+  integrity sha512-unoaSEyHuR8IApsPN467SD5FMm4PBnaQSHbtvt4dVS3PMDObZV5/lKIbjlfSad7ENzuvpBSLCGyLDOykXUNu6w==
+  dependencies:
+    sitemap "^7.1.1"
+    zod "^3.17.3"
+
 "@astrojs/starlight@^0.5.5":
   version "0.5.5"
   resolved "https://registry.yarnpkg.com/@astrojs/starlight/-/starlight-0.5.5.tgz#b17ea4d70a4810255f1bbd7da303a99abb563186"
