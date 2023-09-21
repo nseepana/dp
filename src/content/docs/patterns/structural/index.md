@@ -1,6 +1,6 @@
 ---
 title: Structural Patterns
-description: ""
+description: "Organize objects and classes to form larger structures and provide relationships between them."
 ---
 
 Organize objects and classes to form larger structures and provide relationships between them.
