@@ -129,7 +129,7 @@ ___
   
 - **Decorator (D)** - Picture a beautifully decorated cake, where new layers and decorations are added to enhance its appearance and taste, reflecting how the decorator pattern adds new functionality to an existing object dynamically.
 
-- **Flyweight (F)** - Imagine a flock of birds flying together, sharing the same set of feathers, thus minimizing the overall feather usage and conserving resources. This represents how the flyweight pattern minimizes memory usage by sharing data among objects.
+- **Flyweight (F)** - Imagine a group of people in a company using the same blueprint to build separate houses. This represents how the flyweight pattern minimizes memory usage by sharing data among objects.
 
 - **Facade (F)** - Imagine a building with an elegant and simple front (facade) that hides the complex inner workings of the building.
   
